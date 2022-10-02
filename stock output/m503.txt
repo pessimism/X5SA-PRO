@@ -1,0 +1,48 @@
+09:23:22.614 : echo:; Linear Units:
+09:23:22.617 : G21 ; (mm)
+09:23:22.617 : echo:; Temperature Units:
+09:23:22.620 : echo:  M149 C ; Units in Celsius
+09:23:22.627 : echo:; Filament settings (Disabled):
+09:23:22.627 : echo:  M200 S0 D1.75
+09:23:22.629 : echo:; Steps per unit:
+09:23:22.632 : echo:  M92 X160.00 Y160.00 Z800.00 E766.22
+09:23:22.636 : echo:; Max feedrates (units/s):
+09:23:22.642 : echo:  M203 X150.00 Y150.00 Z15.00 E25.00
+09:23:22.645 : echo:; Max Acceleration (units/s2):
+09:23:22.648 : echo:  M201 X1000.00 Y1000.00 Z100.00 E4000.00
+09:23:22.657 : echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+09:23:22.660 : echo:  M204 P500.00 R1000.00 T1000.00
+09:23:22.672 : echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_x_jerk> Y<max_y_jerk> Z<max_z_jerk> E<max_e_jerk>):
+09:23:22.678 : echo:  M205 B20000.00 S0.00 T0.00 X10.00 Y10.00 Z0.40 E5.00
+09:23:22.682 : echo:; Home offset:
+09:23:22.685 : echo:  M206 X0.00 Y0.00 Z0.00
+09:23:22.685 : echo:; Auto Bed Leveling:
+09:23:22.691 : echo:  M420 S1 Z10.00 ; Leveling ON
+09:23:22.691 : echo:  G29 W I0 J0 Z-0.11750
+09:23:22.694 : echo:  G29 W I1 J0 Z-0.15250
+09:23:22.697 : echo:  G29 W I2 J0 Z-0.15125
+09:23:22.700 : echo:  G29 W I3 J0 Z-0.12125
+09:23:22.702 : echo:  G29 W I0 J1 Z0.06625
+09:23:22.706 : echo:  G29 W I1 J1 Z-0.00375
+09:23:22.709 : echo:  G29 W I2 J1 Z-0.02875
+09:23:22.712 : echo:  G29 W I3 J1 Z0.01000
+09:23:22.715 : echo:  G29 W I0 J2 Z0.10250
+09:23:22.717 : echo:  G29 W I1 J2 Z0.00375
+09:23:22.717 : echo:  G29 W I2 J2 Z-0.02750
+09:23:22.721 : echo:  G29 W I3 J2 Z0.01750
+09:23:22.724 : echo:  G29 W I0 J3 Z-0.04875
+09:23:22.727 : echo:  G29 W I1 J3 Z-0.24250
+09:23:22.730 : echo:  G29 W I2 J3 Z-0.29125
+09:23:22.733 : echo:  G29 W I3 J3 Z-0.15250
+09:23:22.736 : echo:; Hotend PID:
+09:23:22.739 : echo:  M301 P24.20 I1.08 D102.00
+09:23:22.739 : echo:; Controller Fan:
+09:23:22.742 : echo:  M710 S255 I0 A1 D60 ; (100% 0%)
+09:23:22.746 : echo:; Power-loss recovery:
+09:23:22.748 : echo:  M413 S1 ; ON
+09:23:22.752 : echo:; Z-Probe Offset:
+09:23:22.755 : echo:  M851 X-38.50 Y-10.00 Z-2.70 ; (mm)
+09:23:22.758 : echo:; Filament load/unload:
+09:23:22.761 : echo:  M603 L0.00 U100.00 ; (mm)
+09:23:22.764 : echo:; Filament runout sensor:
+09:23:22.766 : echo:  M412 S1 ; Sensor ON
